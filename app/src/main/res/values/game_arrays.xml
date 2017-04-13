@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gamelevel_entries_array">
+
+        <item name="bgr">Beginner</item>
+
+        <item name="nrm">Normal</item>
+
+        <item name="exp">Expert</item>
+    </string-array>
+
+    <string-array name="gamelevel_values_array">
+
+        <item name="bgr">1</item>
+
+        <item name="nrm">2</item>
+
+        <item name="exp">3</item>
+    </string-array>
+</resources>
+

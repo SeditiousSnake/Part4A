@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+
+        android:title="User Info">
+
+        <EditTextPreference              android:title="Name"
+            android:summary="Enter your user name here "              android:key="usrNamePref"               android:defaultValue=""              android:maxLength="6"/>
+
+        <EditTextPreference
+
+            android:title="Password"
+            android:summary="Enter your password here"              android:key="usrPsswdPref"               android:defaultValue=""              android:inputType="textPassword"              android:maxLength="8"/>
+
+        <CheckBoxPreference
+            android:title="Remember login"
+            android:summary="Auto login when My Game starts"              android:key="autoLoginPref"              android:defaultValue="false"  />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="User's Game Settings  	 	 	">
+
+        <ListPreference              android:title="Game Level"
+            android:summary="Choose your level of play"              android:key="gameLvlPref"              android:defaultValue="1"
+            android:entries="@array/gamelevel_entries_array"              android:entryValues="@array/gamelevel_values_array" />
+
+        <CheckBoxPreference
+            android:title="@string/paiduser"
+            android:summary="@string/paiddesc"              android:key="paidUserPref"              android:defaultValue="false"  />
+    </PreferenceCategory>
+
+</PreferenceScreen>

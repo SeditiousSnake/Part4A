@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Part 4A</string>
+    <string name="game_settings">Game Settings</string>
+    <string name="reset">Reset</string>
+    <string name="startgame">Start Game</string>
+    <string name="endgame">End Game</string>
+    <string name="paiduser">Paid User</string>
+    <string name="paiddesc">Check box if a paid user</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"     xmlns:tools="http://schemas.android.com/tools"     android:id="@+id/activity_start_game"
+
+    android:layout_width="match_parent"     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"     android:paddingLeft="@dimen/activity_horizontal_margin"     android:paddingRight="@dimen/activity_horizontal_margin"     android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context=".StartGame"     android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/usrNameTxtVw"         android:textSize="18sp"        android:layout_width="fill_parent"        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/gameLvlTxtVw"         android:textSize="18sp"        android:layout_width="fill_parent"        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/autoLoginTxtVw"         android:textSize="18sp"        android:layout_width="fill_parent"        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/paidUserTxtVw"         android:textSize="18sp"        android:layout_width="fill_parent"        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
